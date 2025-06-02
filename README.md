@@ -1,5 +1,6 @@
 Tool spam kêt bạn locket, python 3.11 (khác so với bản gốc dùng 3.7)
 
+```python 3.11
 import os
 
 repo_path = "/content/locket-spam"
@@ -13,3 +14,4 @@ if not os.path.exists(repo_path):
 !rm -rf {repo_path}
 
 !python3 app.py
+```
