@@ -1,4 +1,3 @@
-
 import requests
 import time
 import subprocess
@@ -278,7 +277,7 @@ class zLocket:
             if 'token' in token_data and 'expiry' in token_data:
                 if token_data['expiry'] > time.time():
                     self._print(
-                        f"{xColor.GREEN}[+] {xColor.CYAN}Loaded token from file token.json: {xColor.YELLOW}{token_data['token'][:10] + "..." + token_data['token'][-10:]}")
+                    f"{xColor.GREEN}[+] {xColor.CYAN}Loaded token from file token.json: {xColor.YELLOW}{token_data['token'][:10] + '...' + token_data['token'][-10:]}")
                     time.sleep(0.4)
                     time_left=int(token_data['expiry'] - time.time())
                     self._print(
@@ -347,7 +346,7 @@ class zLocket:
                 return self.fetch_token(retry + 1)
             else:
                 self._print(
-                    f"{xColor.YELLOW}[!] {xColor.RED}{data.get("msg")}")
+                f"{xColor.YELLOW}[!] {xColor.RED}{data.get('msg')}")
                 time.sleep(1.3)
                 return self.fetch_token(retry + 1)
         except requests.exceptions.RequestException as e:
@@ -1219,3 +1218,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
