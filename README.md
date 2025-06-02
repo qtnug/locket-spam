@@ -1,5 +1,5 @@
 <b>Tool spam kêt bạn locket, python 3.11 (khác so với bản gốc dùng 3.7)</b>
-<p>Nhiều proxy hơn bản gốc. Tools gốc có tầm 11000 proxy. Mình đã cập nhật list proxy lên tận <b>100.000</b></p>
+<p>Nhiều proxy hơn bản gốc. Tools gốc có tầm 11.000 proxy. Mình đã cập nhật list proxy lên tận <b>100.000</b> proxy</p>
 <p>Truy cập [Google colab](https://colab.google/) để chạy code</p>
 <details>
   <summary>Code (Python 3.11)</summary>
