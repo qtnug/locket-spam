@@ -1,0 +1,6 @@
+requests>=2.31.0
+tqdm>=4.66.5
+colorama>=0.4.6
+pystyle>=1.4
+urllib3>=2.2.3
+python-telegram-bot>=20.7
