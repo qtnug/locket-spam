@@ -1,7 +1,7 @@
-Tool spam kêt bạn locket, python 3.11 (khác so với bản gốc dùng 3.7)
-
+<b>Tool spam kêt bạn locket, python 3.11 (khác so với bản gốc dùng 3.7)</b>
+Truy cập [Google colab](https://colab.google/) để chạy code
 <details>
-  <summary>nhấn để xem code ví dụ</summary>
+  <summary>Code (Python 3.11)</summary>
 
 ```python 3.11
 import os
